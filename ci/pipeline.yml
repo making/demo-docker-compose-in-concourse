@@ -10,7 +10,7 @@ resources:
   source:
     uri: https://github.com/making/demo-docker-compose-in-concourse
     branch: master
-- name: m2
+- name: m2 # if you are interested in creating this cache image, check out m2 branch.
   type: docker-image
   source:
     repository: making/demo-test-container-m2
