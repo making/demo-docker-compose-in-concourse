@@ -24,7 +24,7 @@ jobs:
       params:
         save: true
     - get: m2
-  - task: say-hello
+  - task: run-test
     privileged: true
     config:
       platform: linux
